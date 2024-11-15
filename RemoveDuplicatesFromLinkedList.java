@@ -64,13 +64,13 @@ public class RemoveDuplicatesFromLinkedList {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Create linked list from user input
+    
         Node head = createLinkedList(scanner);
 
         System.out.println("Original list:");
         printList(head);
 
-        // Remove duplicates
+        //removing duplicates
         removeDuplicates(head);
 
         System.out.println("List after removing duplicates:");
